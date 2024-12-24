@@ -68,16 +68,6 @@ Her bir `Message` şu bilgileri içerir:
 
 ---
 
-## 🛠️ **Nasıl Kullanılır?**
-
-### ⚙️ **Gereksinimler**
-- Motoko Playground veya **DFINITY SDK** kurulu olmalıdır.
-
-### 🧑‍💻 **Örnek Kullanım**
-Yeni bir kişiyi eklemek:  
-```motoko
-await Actor.insert("Alice", {desc = "Friend", phone = "123-456-7890"})
-Belirtilen telefon numarasıyla gönderilen son mesajı döndürür.
 
 
 
